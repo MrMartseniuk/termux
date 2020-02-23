@@ -3,3 +3,4 @@
 pkg upgrade -y
 apt install bash-completion vim tor -y
 echo "Done)!!!"
+exit
