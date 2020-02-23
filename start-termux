@@ -1,4 +1,4 @@
-#!/bin/bash
+#!./bin/bash
 
 pkg upgrade -y
 apt install bash-completion vim tor -y
