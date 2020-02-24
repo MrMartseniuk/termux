@@ -2,5 +2,9 @@
 
 pkg upgrade -y
 apt install bash-completion vim tor -y
+termux-setup-storage
+pkg install x11-repo
+pkg install xfce
+pkg install tigervnc
+vncserver -localhost
 echo "Done)!!!"
-exit
